@@ -1,0 +1,12 @@
+public class Album{
+		
+		private class Song{
+			private String name;
+			private String singer;
+		}
+		
+		
+		private ArrayList<Song> songs = new ArrayList<>();
+		----
+		----
+}

@@ -1,0 +1,8 @@
+Behavior of a robot
+--------------------------
+
+In java we can use Encapsulation and Modularity to operate a robot.
+
+Encapsulation: generate separated modules for each instruction. 
+
+Modularity: define by methods the operations.

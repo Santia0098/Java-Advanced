@@ -1,0 +1,10 @@
+PreparedStatement selectGuitars;
+
+Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3304/guitars”, "root", "");
+
+selectGuitars = connection.preparedStatement(“SELECT * FROM Guitars, User WHERE Guitars.type = premium AND User.type = premium”);
+
+ResultSet resultSet = selectGuitars.executeQuery();
+
+resultSet.close();
+connection.close();
